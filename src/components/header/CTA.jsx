@@ -8,7 +8,7 @@ AOS.init();
 const CTA = () => {
   return (
     <div className="cta te-blur">
-      <a  href={CV} download className='btn bo-blur'>Download CV</a>
+      <a  href={CV} download className='downloadBtn'>Download CV</a>
       <a href="#contact" className='btn btn-primary bo-blur'>Let's Talk</a>
     </div>
   )

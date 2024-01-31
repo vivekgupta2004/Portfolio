@@ -1,3 +1,18 @@
+.experience{
+    background-color:#E3E1D9;
+    border-radius: 0 0 3rem 3rem;
+    padding-bottom: 4rem;
+  
+}
+.experience h2{
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.experience h5{
+    color: #000;
+    font-size: 1.5rem;
+}
 .experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -5,7 +20,7 @@
 }
 
 .experience_container > div {
-    background: var(--color-bg-variant);
+    background-color: gray;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -13,7 +28,7 @@
 }
 
 .experience_container > div:hover {
-    background: transparent;
+    background-color: #000;
     border-color: var(--color-primary-variant);
     cursor: default;
 }

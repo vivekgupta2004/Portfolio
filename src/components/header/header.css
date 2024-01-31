@@ -36,6 +36,10 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.header_des h5 {
+    font-size: 1.2rem;
+}
+
 .header_des h1 {
     line-height: 5rem;
     font-size: 5rem;
@@ -60,6 +64,7 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
+    font-size: 2rem;
 }
 
 .header_socials::after {
@@ -97,6 +102,25 @@ header {
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
+}
+
+.downloadBtn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-bottom: .5rem;
+    background-color: #beb5b5;
+}
+.downloadBtn:hover {
+    background-color: lightgray;
+    color: #000;
+    border-color: transparent;
+    box-shadow: 0 4px 32px hsla(230, 72%, 32%, 0.4);
+    box-shadow: 0 0px 32px var(--color-primary-variant);
 }
 
 @media screen and (max-width: 1024px) {

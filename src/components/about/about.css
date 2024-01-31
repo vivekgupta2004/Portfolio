@@ -1,3 +1,18 @@
+.About{
+    background-color:#E3E1D9;
+    border-radius: 3rem 3rem 0 0;
+}
+.aboutHead{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
 .about_container {
     display: grid;
     grid-template-columns: 38% 50%;
@@ -39,39 +54,40 @@
 }
 
 .about_card {
-    background: var(--color-bg-variant);
+    background-color: gray;
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    height: 13rem;
 }
 
 .about_card:hover {
-    background: transparent;
+    background-color: black;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
 .about_icon {
     color: var(--color-primary);
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     margin-bottom: 1rem;
 }
 
 .about_card h5 {
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 .about_card small {
-    font-size: 0.7rem;
+    font-size: .9rem;
     color: var(--color-light);
 }
 
 .about_content p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: #000;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,3 +1,12 @@
+.contacth5{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.contacth2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
 .container.contact_container {
     width: 58%;
     display: grid;
@@ -50,7 +59,9 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    font-size: 1rem;
 }
+
 
 @media screen and (max-width: 1024px) {
     .container.contact_container {

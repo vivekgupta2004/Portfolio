@@ -22,7 +22,8 @@ import { Tilt } from 'react-tilt'
 
 const experience = () => {
     return (
-        <section id="experience">
+        <section id="experience" className='experience'>
+
             <h5>Here are some of my skills on which I have been working on for the past years</h5>
             <h2>Skills</h2>
 

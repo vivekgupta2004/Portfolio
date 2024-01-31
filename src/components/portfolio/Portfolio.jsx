@@ -2,7 +2,8 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Sky.png'
 import IMG2 from '../../assets/Tic.png'
-import IMG3 from '../../assets/quiz.jpg'
+import IMG3 from '../../assets/quiz.png'
+import IMG4 from '../../assets/employee.png'
 // import IMG2 from '../../assets/book-pro.png'
 // import IMG3 from '../../assets/linkedin-pro.png'
 
@@ -23,7 +24,7 @@ const defaultOptions = {
 
 const portfolio = () => {
   return (
-    <section id="project">
+    <section id="project" className='portfolio'>
       <h5>Here are some of my projects</h5>
       <h2>Projects</h2>
       <div className="container portfolio_container">
@@ -69,7 +70,7 @@ const portfolio = () => {
         <Tilt options={defaultOptions}>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img  src={IMG3}  alt="" />
+            <img  src={IMG4}  alt="" />
           </div>
           <h3> "Employee management system"</h3>
           <p>Employee management system using C++ is a menu-driven program that allows us to add, update, delete and search records of an employee working in an organization. The program employee management system stores employee ID, name, post, department, and salary of the employee. Initially, it has no data.</p>
