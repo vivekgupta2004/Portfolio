@@ -125,13 +125,14 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 75vh;
+        margin-top: 3rem;
+        height: 100vh;
     }
 }
 
 @media screen and (max-width: 600px) {
     header {
-        height: 90vh;
+        height: 120vh;
     }
 
     .header_socials,
