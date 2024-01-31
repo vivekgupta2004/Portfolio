@@ -125,7 +125,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        margin-top: 1.5rem;
+       
         height: 110vh;
     }
 }
