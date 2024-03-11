@@ -43,6 +43,11 @@ const experience = () => {
                                 <div><h4>C++</h4>
                                     <small className='text-light'>InterMediate</small></div>
                             </article>
+                            <article className='experience_details'>
+                                <BsFillBrightnessHighFill className='experience_details-icon' />
+                                <div><h4>Python</h4>
+                                    <small className='text-light'>Basic</small></div>
+                            </article>
 
 
                         </div>

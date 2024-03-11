@@ -49,7 +49,7 @@ const portfolio = () => {
           <h3> "Tic Tac Toe Game"</h3>
           <p>The provided code is an HTML and JavaScript implementation of the classic game "Tic Tac Toe." It features a responsive game grid, turn-based gameplay, a reset button, and winning line animations. The styling uses CSS with a mix of fonts and responsive design for various screen sizes.</p>
           <div className="portfolio_item-cta">
-          {/*   <a href="https://github.com/vivekgupta2004/TicTacToe" className="btn" target='_blank'>Open Web</a> */}
+            <a href="https://tic-tac-toerouge.vercel.app/" className="btn" target='_blank'>Open Web</a> 
             <a href="https://github.com/vivekgupta2004/TicTacToe" className="btn btn-primary" target='_blank'>GitHub</a>
           </div>
         </article>
